@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Authors from './component/Authors/Authors';
+import Long from './component/Long Stories/Long';
+import Short from './component/Short Stories/Short';
+import Long2 from './component/Long Stories 2/Long2';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Short />
+      <Long />
+      <Long2 />
+      <Authors />
+      <Short />
+      <Long2 />
+      <Long />
+      <Authors />
+
+
     </div>
   );
 }
 
 export default App;
+
