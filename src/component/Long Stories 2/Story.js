@@ -17,6 +17,7 @@ const Story = (props) => {
                     <div className='ml-4 font-bold'>{author.name}</div>
                 </div>
                 <div className='mt-4 font-bold'>{community.name}</div>
+<div className='mt-4 font-bold'>{community.name}</div>
             </div>
 
 

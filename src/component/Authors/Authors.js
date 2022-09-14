@@ -18,6 +18,7 @@ const Authors = () => {
     return (
         <div className='bg-black mt-5'>
             <span className='text-white font-bold flex ml-5 mt-10'>Amazing Authors to Follow</span>
+        <span className='text-white font-bold flex ml-5 mt-10'>Testing</span
             <div class="card mt-5  w-full bg-slate-700 shadow-xl">
                 <div class="card-body">
                     {
