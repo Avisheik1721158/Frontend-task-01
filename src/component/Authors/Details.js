@@ -19,7 +19,7 @@ const Details = (props) => {
                 </div>
                 <div>
                     <div className='flex justify-around'>
-                        <div><span className='text-slate-400 '>{summary.followers} Followers</span></div>
+                        <div><span className='text-slate-400 '>{summary.followers} Followers-01</span></div>
                         <div className='text-sky-400 ml-5  font-bold'>Follow</div>
                     </div>
                 </div>
